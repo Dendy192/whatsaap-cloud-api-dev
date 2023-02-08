@@ -70,5 +70,5 @@ app.post("/webhook", (req, res) => {
 
 app.get("/", (req, res) => {
   //   res.sendStatus(200).send("Hello");
-  res.status(200).send("challange");
+  res.status(200).send("Hello this webhook");
 });
